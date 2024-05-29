@@ -1,0 +1,9 @@
+{
+	"name": "adf-wafa-1303",
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ae8da91e-906c-4ec7-aa4d-782c4f9abf23",
+		"tenantId": "0ac9303e-9ed1-430e-9c79-b8800832829b"
+	}
+}
