@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-wafa-1303"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"Parameterized_LS_SQLDbs_password": {
+			"value": ""
+		},
+		"Parameterized_LS_SQLDbs_properties_typeProperties_server": {
+			"value": "MyDB_server"
+		},
+		"Parameterized_LS_SQLDbs_properties_typeProperties_database": {
+			"value": "@{linkedService().dbname}"
+		},
+		"Parameterized_LS_SQLDbs_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
